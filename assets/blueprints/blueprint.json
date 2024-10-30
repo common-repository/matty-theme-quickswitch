@@ -1,0 +1,24 @@
+{
+    "landingPage": "\/wp-admin\/themes.php",
+    "preferredVersions": {
+        "php": "8.2",
+        "wp": "6.4.1"
+    },
+    "phpExtensionBundles": [
+        "kitchen-sink"
+    ],
+    "steps": [
+        {
+            "step": "login",
+            "username": "admin",
+            "password": "password"
+        },
+        {
+            "step": "installTheme",
+            "themeZipFile": {
+                "resource": "wordpress.org\/themes",
+                "slug": "twenty-twenty-three"
+            }
+        },
+    ]
+}
